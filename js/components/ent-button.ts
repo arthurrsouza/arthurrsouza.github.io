@@ -1,27 +1,15 @@
 import Component from '@glimmer/component';
-import { action } from '@ember/object';
-import { compileTemplate } from '@ember/template-compilation'
-import { createTemplateFactory } from '@ember/template-factory'
+import { tracked } from '@glimmer/tracking';
+import { on } from '@ember/modifier';
 
-// import './ent-button.css';
+export default class HelloWorld extends Component {
+  @tracked count = 0;
 
-interface EntButtonComponentSignatures {
-  Element: HTMLTableElement;
-  // We accept an array of items, one per row
-  Args: {
-    onClick: () => void;
-  };
+  increment = () => this.count += 1;
 
-  Blocks: {
-    default: [];
-  };
-}
+  <template>
+    <p>You have clicked the button {{this.count}} times.</p>
 
-export default class EntButtonComponent extends Component<EntButtonComponentSignatures> {
-  @action
-  onClick() {
-    console.log('Enterprise DS - Button clicked');
-
-    this.args.onClick?.()
-  }
+    <button {{on "click" this.increment}}>Click</button>
+  </template>
 }
