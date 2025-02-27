@@ -1,6 +1,5 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
-import { on } from '@ember/modifier';
 
 export default class HelloWorld extends Component {
   @tracked count = 0;
@@ -10,6 +9,6 @@ export default class HelloWorld extends Component {
   <template>
     <p>You have clicked the button {{this.count}} times.</p>
 
-    <button {{on "click" this.increment}}>Click</button>
+    <Ody::Button @onClick={{this.increment}}>Click</Ody::Button>
   </template>
 }
