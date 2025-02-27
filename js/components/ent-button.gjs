@@ -1,5 +1,6 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
+import '@peek-ui/ember-odyssey/components/ody/button/component'
 
 export default class HelloWorld extends Component {
   @tracked count = 0;
