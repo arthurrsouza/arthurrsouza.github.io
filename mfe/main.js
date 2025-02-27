@@ -216,7 +216,7 @@ eval("\n//# sourceMappingURL=index.js.map\n\n\n//# sourceURL=webpack://ember-ent
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://arthurrsouza.github.io/mfe/";
+/******/ 		__webpack_require__.p = "https://arthurrsouza.github.io/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */

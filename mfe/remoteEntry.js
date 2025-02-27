@@ -230,7 +230,7 @@ eval("var moduleMap = {\n\t\"./EntButtonComponent\": () => {\n\t\treturn Promise
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://arthurrsouza.github.io/mfe/";
+/******/ 		__webpack_require__.p = "https://arthurrsouza.github.io/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/consumes */
