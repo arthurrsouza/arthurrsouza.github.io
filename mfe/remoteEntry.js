@@ -17,7 +17,7 @@ var EnterpriseDS;
   \***********************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("var moduleMap = {\n\t\"./EntButtonComponent\": () => {\n\t\treturn Promise.all([__webpack_require__.e(\"vendors-node_modules_pnpm_ember-source_5_12_0__glimmer_component_2_0_0__glint_template_1_5_0_-690c45\"), __webpack_require__.e(\"vendors-node_modules_pnpm_ember-source_5_12_0__glimmer_component_2_0_0__glint_template_1_5_0_-a21140\"), __webpack_require__.e(\"dist_components_ent-button_js\")]).then(() => (() => ((__webpack_require__(/*! ./dist/components/ent-button.js */ \"./dist/components/ent-button.js\")))));\n\t}\n};\nvar get = (module, getScope) => {\n\t__webpack_require__.R = getScope;\n\tgetScope = (\n\t\t__webpack_require__.o(moduleMap, module)\n\t\t\t? moduleMap[module]()\n\t\t\t: Promise.resolve().then(() => {\n\t\t\t\tthrow new Error('Module \"' + module + '\" does not exist in container.');\n\t\t\t})\n\t);\n\t__webpack_require__.R = undefined;\n\treturn getScope;\n};\nvar init = (shareScope, initScope) => {\n\tif (!__webpack_require__.S) return;\n\tvar name = \"default\"\n\tvar oldScope = __webpack_require__.S[name];\n\tif(oldScope && oldScope !== shareScope) throw new Error(\"Container initialization failed as it has already been initialized with a different share scope\");\n\t__webpack_require__.S[name] = shareScope;\n\treturn __webpack_require__.I(name, initScope);\n};\n\n// This exports getters to disallow modifications\n__webpack_require__.d(exports, {\n\tget: () => (get),\n\tinit: () => (init)\n});\n\n//# sourceURL=webpack://ember-enterprise/container_entry?");
+eval("var moduleMap = {\n\t\"./EntButtonComponent\": () => {\n\t\treturn Promise.all([__webpack_require__.e(\"vendors-node_modules_pnpm_ember-source_5_12_0__glimmer_component_2_0_0__glint_template_1_5_0_-a21140\"), __webpack_require__.e(\"dist_components_ent-button_js\")]).then(() => (() => ((__webpack_require__(/*! ./dist/components/ent-button.js */ \"./dist/components/ent-button.js\")))));\n\t}\n};\nvar get = (module, getScope) => {\n\t__webpack_require__.R = getScope;\n\tgetScope = (\n\t\t__webpack_require__.o(moduleMap, module)\n\t\t\t? moduleMap[module]()\n\t\t\t: Promise.resolve().then(() => {\n\t\t\t\tthrow new Error('Module \"' + module + '\" does not exist in container.');\n\t\t\t})\n\t);\n\t__webpack_require__.R = undefined;\n\treturn getScope;\n};\nvar init = (shareScope, initScope) => {\n\tif (!__webpack_require__.S) return;\n\tvar name = \"default\"\n\tvar oldScope = __webpack_require__.S[name];\n\tif(oldScope && oldScope !== shareScope) throw new Error(\"Container initialization failed as it has already been initialized with a different share scope\");\n\t__webpack_require__.S[name] = shareScope;\n\treturn __webpack_require__.I(name, initScope);\n};\n\n// This exports getters to disallow modifications\n__webpack_require__.d(exports, {\n\tget: () => (get),\n\tinit: () => (init)\n});\n\n//# sourceURL=webpack://ember-enterprise/container_entry?");
 
 /***/ })
 
@@ -218,8 +218,7 @@ eval("var moduleMap = {\n\t\"./EntButtonComponent\": () => {\n\t\treturn Promise
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@ember/object", "5.12.0", () => (__webpack_require__.e("vendors-node_modules_pnpm_ember-source_5_12_0__glimmer_component_2_0_0__glint_template_1_5_0_-690c45").then(() => (() => (__webpack_require__(/*! ../node_modules/.pnpm/ember-source@5.12.0_@glimmer+component@2.0.0_@glint+template@1.5.0_rsvp@4.8.5_webpack@5.98.0_webpack-cli@6.0.1_/node_modules/ember-source/dist/packages/@ember/object/index.js */ "../node_modules/.pnpm/ember-source@5.12.0_@glimmer+component@2.0.0_@glint+template@1.5.0_rsvp@4.8.5_webpack@5.98.0_webpack-cli@6.0.1_/node_modules/ember-source/dist/packages/@ember/object/index.js"))))));
-/******/ 					register("@glimmer/component", "2.0.0", () => (Promise.all([__webpack_require__.e("vendors-node_modules_pnpm_ember-source_5_12_0__glimmer_component_2_0_0__glint_template_1_5_0_-690c45"), __webpack_require__.e("vendors-node_modules_pnpm_ember-source_5_12_0__glimmer_component_2_0_0__glint_template_1_5_0_-a21140"), __webpack_require__.e("vendors-node_modules_pnpm_glimmer_component_2_0_0_node_modules_glimmer_component_dist_index_js")]).then(() => (() => (__webpack_require__(/*! ../node_modules/.pnpm/@glimmer+component@2.0.0/node_modules/@glimmer/component/dist/index.js */ "../node_modules/.pnpm/@glimmer+component@2.0.0/node_modules/@glimmer/component/dist/index.js"))))));
+/******/ 					register("@glimmer/component", "2.0.0", () => (Promise.all([__webpack_require__.e("vendors-node_modules_pnpm_ember-source_5_12_0__glimmer_component_2_0_0__glint_template_1_5_0_-a21140"), __webpack_require__.e("vendors-node_modules_pnpm_glimmer_component_2_0_0_node_modules_glimmer_component_dist_index_js")]).then(() => (() => (__webpack_require__(/*! ../node_modules/.pnpm/@glimmer+component@2.0.0/node_modules/@glimmer/component/dist/index.js */ "../node_modules/.pnpm/@glimmer+component@2.0.0/node_modules/@glimmer/component/dist/index.js"))))));
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -358,14 +357,12 @@ eval("var moduleMap = {\n\t\"./EntButtonComponent\": () => {\n\t\treturn Promise
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/@glimmer/component/@glimmer/component": () => (loadStrictVersion("default", "@glimmer/component", false, [1,2,0,0], () => (__webpack_require__.e("vendors-node_modules_pnpm_glimmer_component_2_0_0_node_modules_glimmer_component_dist_index_js").then(() => (() => (__webpack_require__(/*! @glimmer/component */ "../node_modules/.pnpm/@glimmer+component@2.0.0/node_modules/@glimmer/component/dist/index.js"))))))),
-/******/ 			"webpack/sharing/consume/default/@ember/object/@ember/object": () => (load("default", "@ember/object", false, () => (() => (__webpack_require__(/*! @ember/object */ "../node_modules/.pnpm/ember-source@5.12.0_@glimmer+component@2.0.0_@glint+template@1.5.0_rsvp@4.8.5_webpack@5.98.0_webpack-cli@6.0.1_/node_modules/ember-source/dist/packages/@ember/object/index.js")))))
+/******/ 			"webpack/sharing/consume/default/@glimmer/component/@glimmer/component": () => (loadStrictVersion("default", "@glimmer/component", false, [1,2,0,0], () => (__webpack_require__.e("vendors-node_modules_pnpm_glimmer_component_2_0_0_node_modules_glimmer_component_dist_index_js").then(() => (() => (__webpack_require__(/*! @glimmer/component */ "../node_modules/.pnpm/@glimmer+component@2.0.0/node_modules/@glimmer/component/dist/index.js")))))))
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
 /******/ 			"dist_components_ent-button_js": [
-/******/ 				"webpack/sharing/consume/default/@glimmer/component/@glimmer/component",
-/******/ 				"webpack/sharing/consume/default/@ember/object/@ember/object"
+/******/ 				"webpack/sharing/consume/default/@glimmer/component/@glimmer/component"
 /******/ 			]
 /******/ 		};
 /******/ 		var startedInstallModules = {};
