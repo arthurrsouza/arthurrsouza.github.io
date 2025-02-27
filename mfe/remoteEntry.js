@@ -96,7 +96,7 @@ eval("var moduleMap = {\n\t\"./EntButtonComponent\": () => {\n\t\treturn Promise
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "mfe/" + chunkId + ".chunk.js";
+/******/ 			return "mfe/" + chunkId + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	

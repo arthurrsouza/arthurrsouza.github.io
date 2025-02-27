@@ -82,7 +82,7 @@ eval("\n//# sourceMappingURL=index.js.map\n\n\n//# sourceURL=webpack://ember-ent
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "mfe/" + chunkId + ".chunk.js";
+/******/ 			return "mfe/" + chunkId + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
