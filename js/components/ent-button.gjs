@@ -10,6 +10,6 @@ export default class HelloWorld extends Component {
   <template>
     <p>You have clicked the button {{this.count}} times.</p>
 
-    <Ody::Button @onClick={{this.increment}}>Click</Ody::Button>
+    <OdyButton @onClick={{this.increment}}>Click</OdyButton>
   </template>
 }
