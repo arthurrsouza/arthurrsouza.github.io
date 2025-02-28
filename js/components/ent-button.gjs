@@ -6,10 +6,12 @@ export default class HelloWorld extends Component {
   @tracked count = 0;
 
   increment = () => this.count += 1;
+  decrement = () => this.count -= 1;
 
   <template>
     <p>You have clicked the button {{this.count}} times.</p>
 
-    <OdyButton @variant="primary" @onClick={{this.increment}}>Click</OdyButton>
+    <OdyButton @variant="primary" @onClick={{this.increment}}>Increment</OdyButton>
+    <OdyButton @variant="primary" @onClick={{this.decrement}}>Decrement</OdyButton>
   </template>
 }
