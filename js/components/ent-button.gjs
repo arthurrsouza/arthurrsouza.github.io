@@ -1,6 +1,7 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import OdyButton from 'OdyButton'
+import { inject as service } from '@ember/service';
 
 export default class HelloWorld extends Component {
   @tracked count = 0;
