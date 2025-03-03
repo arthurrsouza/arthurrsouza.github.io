@@ -4,6 +4,7 @@ import OdyButton from 'OdyButton'
 
 export default class HelloWorld extends Component {
   @tracked count = 0;
+  @service session;
 
   increment = () => this.count += 1;
   decrement = () => this.count -= 1;
