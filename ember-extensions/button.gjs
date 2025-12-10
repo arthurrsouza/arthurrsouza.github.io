@@ -1,6 +1,6 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
-import { on } from '@ember/modifier';
+import OdyButton from '@peek-ui/ember-odyssey/components/ody/button';
 
 export default class ButtonComponent extends Component {
   @tracked count = 0;
@@ -9,16 +9,16 @@ export default class ButtonComponent extends Component {
   decrement = () => (this.count -= 1);
 
   <template>
-    <button
+    <OdyButton
       type="button"
+      @onClick={{this.increment}}
       data-test-extension-increment
-      {{on "click" this.increment}}
-    >Increment</button>
-    <button
+    >Increment</OdyButton>
+    <OdyButton
       type="button"
+      @onClick={{this.decrement}}
       data-test-extension-decrement
-      {{on "click" this.decrement}}
-    >Decrement</button>
+    >Decrement</OdyButton>
     <p data-test-extension-total>You have clicked the button
       {{this.count}}
       times.</p>
