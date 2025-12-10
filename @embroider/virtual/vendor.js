@@ -6,4 +6,11 @@ window.EmberENV={ ...(window.EmberENV || {}), ...{
   "_JQUERY_INTEGRATION": false,
   "_NO_IMPLICIT_ROUTE_MODEL": true,
   "_TEMPLATE_ONLY_GLIMMER_COMPONENTS": true
-} };var runningTests=false;
+} };var runningTests=false;/* eslint-disable no-empty */
+/* global require */
+
+(function () {
+  try {
+    require('ember-cli-deprecation-workflow').default();
+  } catch (e) {}
+})();
